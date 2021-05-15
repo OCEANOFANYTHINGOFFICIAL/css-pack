@@ -1,0 +1,87 @@
+/* default style open */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* default style close */
+
+/* container open */
+.container{
+    max-width: 80%;
+
+    padding: 34px;
+    margin: auto;
+}
+/* container close */
+
+/* container h1,p open  */
+
+.container h1{
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+/* container h1,p close  */
+
+/* p open  */
+
+p{
+    font-size: 17px;
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+}
+/* p close */
+
+/* input,textarea open  */
+
+input,textarea{
+    /* display: block; */
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+}
+
+/* input,textarea close */
+/* form start  */
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* form close */
+/* btn class start */
+.btn{
+    color: white;
+    background: purpleg;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+/* btn class close */
+
+/* bg class start */
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+/* bg class close */
+/* submitmsg class open */
+.submitmsg{
+    color: green;
+    text-align: center;
+}
+/* submitmsg class close  */
